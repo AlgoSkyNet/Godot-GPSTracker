@@ -28,6 +28,7 @@ Add the following in the engine.cfg file:
 > var gps = Globals.get_singleton("GPSTracker")
 
 > var latitude = gps.getLatitude()   # latitude
+
 > var longitude = gps.getLongitude() # longitude
 
 ###Build the game apk
@@ -40,6 +41,7 @@ Custom Package (Debug/Release):
 > Point to the newly built apk
 
 > Permission check: Access Fine Location
+
 > Permission check: Internet
 
 ####License
